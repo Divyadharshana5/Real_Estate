@@ -48,6 +48,17 @@ const Navbar = () => {
           <a href="#about" className="px-4 py-2 rounded-full inline-block">
             About
           </a>
+
+          <a href="#project" className="px-4 py-2 rounded-full inline-block">
+            Projects
+          </a>
+
+          <a
+            href="#testimonials"
+            className="px-4 py-2 rounded-full inline-block"
+          >
+            Testimonials
+          </a>
         </ul>
       </div>
     </div>
