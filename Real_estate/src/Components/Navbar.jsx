@@ -41,20 +41,20 @@ const Navbar = () => {
 
       <div>
         <ul>
-          <a href="#header" className="px-4 py-2 rounded-full inline-block">
+          <a href="#Header" className="px-4 py-2 rounded-full inline-block">
             Home
           </a>
 
-          <a href="#about" className="px-4 py-2 rounded-full inline-block">
+          <a href="#About" className="px-4 py-2 rounded-full inline-block">
             About
           </a>
 
-          <a href="#project" className="px-4 py-2 rounded-full inline-block">
+          <a href="#Project" className="px-4 py-2 rounded-full inline-block">
             Projects
           </a>
 
           <a
-            href="#testimonials"
+            href="#Testimonials"
             className="px-4 py-2 rounded-full inline-block"
           >
             Testimonials
