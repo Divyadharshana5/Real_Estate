@@ -38,6 +38,18 @@ const Navbar = () => {
 
         <img src={assets.menu_icon} className="md-hidden w-7" alt="" />
       </div>
+
+      <div>
+        <ul>
+          <a href="#header" className="px-4 py-2 rounded-full inline-block">
+            Home
+          </a>
+
+          <a href="#about" className="px-4 py-2 rounded-full inline-block">
+            About
+          </a>
+        </ul>
+      </div>
     </div>
   );
 };
