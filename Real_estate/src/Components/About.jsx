@@ -49,6 +49,9 @@ const About = () => {
             predicated on the many changes life can bring, and it doesn’t
             start—or end—with the transaction.
           </p>
+          <button className="bg-blue-600 text-white px-8 py-2 rounded">
+            Learn more
+          </button>
         </div>
       </div>
     </div>
