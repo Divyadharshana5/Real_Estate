@@ -5,7 +5,12 @@ const About = () => {
     <div
       className="flex flex-col items-center justify-center container mx-auto p-14 md:px-20 lg:px-32 w-full overflow-hidden"
       id="About"
-    ></div>
+    >
+      <h1>
+        About <span>Our Brand</span>
+      </h1>
+      <p>Passionate About properties,Dedicated to Your Vision</p>
+    </div>
   );
 };
 

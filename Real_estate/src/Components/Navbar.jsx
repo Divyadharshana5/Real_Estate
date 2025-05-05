@@ -52,7 +52,7 @@ const Navbar = () => {
         <img
           onClick={() => setShowMobileMenu(true)}
           src={assets.menu_icon}
-          className="md-hidden w-7 cursor-pointer"
+          className="md:hidden w-7 cursor-pointer"
           alt=""
         />
       </div>
