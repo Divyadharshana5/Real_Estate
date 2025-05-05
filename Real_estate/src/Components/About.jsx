@@ -44,6 +44,11 @@ const About = () => {
               <p>Ongoing Projects</p>
             </div>
           </div>
+          <p className="my-10 max-w-lg">
+            A forever real estate agent understands that the concept of home is
+            predicated on the many changes life can bring, and it doesn’t
+            start—or end—with the transaction.
+          </p>
         </div>
       </div>
     </div>
