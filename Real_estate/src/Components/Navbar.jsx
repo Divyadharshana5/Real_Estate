@@ -52,7 +52,12 @@ const Navbar = () => {
         }  right-0 top-0 bottom-0 overflow-hidden bg-white transition-all`}
       >
         <div className="flex justify-end p-6 cursor-pointer">
-          <img src={assets.cross_icon} className="w-6" alt="" />
+          <img
+            onClick={() => setShowMobileMenu(false)}
+            src={assets.cross_icon}
+            className="w-6"
+            alt=""
+          />
         </div>
 
         <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium ">
