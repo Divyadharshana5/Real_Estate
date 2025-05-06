@@ -1,11 +1,27 @@
 import React from "react";
+import { testimonialsData } from "../assets/assets";
 
 const Testimonials = () => {
   return (
-    <div>
-      <h1>
-        Customer <span>Testimonials</span>
+    <div
+      className="container mx-auto py-10 lg:px-32 w-full overflow-hidden"
+      id="Testimonials"
+    >
+      <h1 className="text-2xl sm:text-4xl font-bold mb-2 text-center">
+        Customer{" "}
+        <span className="underline underline-offset-4 ">Testimonials</span>
       </h1>
+      <p className="text-center text-gray-500 mb-12 max-w-80 mx-auto">
+        Real Stories from Those Who Found Home with Us
+      </p>
+
+      <div>
+        {testimonialsData.map((testimonial, index) => (
+          <div key={index}>
+            <img src={testimonial.image} alt={testimonial.alt} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

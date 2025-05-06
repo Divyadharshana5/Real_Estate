@@ -8,6 +8,9 @@ import project_img_1 from "./project_img_1.jpg";
 import project_img_2 from "./project_img_2.jpg";
 import project_img_3 from "./project_img_3.jpg";
 import project_img_4 from "./project_img_4.jpg";
+import profile_img_1 from "./profile_img_1.jpg";
+import profile_img_2 from "./profile_img_2.png";
+import profile_img_3 from "./profile_img_3.webp";
 
 export const assets = {
   logo,
@@ -20,6 +23,9 @@ export const assets = {
   project_img_2,
   project_img_3,
   project_img_4,
+  profile_img_1,
+  profile_img_2,
+  profile_img_3,
 };
 
 export const projectsData = [
@@ -63,5 +69,34 @@ export const projectsData = [
     price: "$2,50,000",
     location: "Chicago",
     image: project_img_3,
+  },
+];
+
+export const testimonialsData = [
+  {
+    name: "Donald jackman",
+    title: "Marketing Manager",
+    image: profile_img_1,
+    alt: "Portrait of Donald Jackman",
+    rating: 5,
+    text: "From the very first meeting,they understood my vision & helped me find the perfect property.Their attention to details $ commitment to client satisfaction is unwatched.",
+  },
+
+  {
+    name: "Richard Nelson",
+    title: "UI/UX Designer",
+    image: profile_img_2,
+    alt: "Portrait of Donald Jackman",
+    rating: 4,
+    text: "From the very first meeting,they understood my vision & helped me find the perfect property.Their attention to details $ commitment to client satisfaction is unwatched.",
+  },
+
+  {
+    name: "James Washington",
+    title: "Co-Founder",
+    image: profile_img_3,
+    alt: "Portrait of Donald Jackman",
+    rating: 5,
+    text: "From the very first meeting,they understood my vision & helped me find the perfect property.Their attention to details $ commitment to client satisfaction is unwatched.",
   },
 ];
