@@ -1,5 +1,5 @@
 import React from "react";
-import { assets } from "../assets/assets";
+import { assets, projectsData } from "../assets/assets";
 
 const Projects = () => {
   return (
@@ -29,6 +29,16 @@ const Projects = () => {
           <button className="p-2 bg-gray-200 rounded" aria-label="Next Project">
             <img src={assets.right_arrow} alt="Next" className="w-6 h-6" />
           </button>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          {projectsData.map((project, index) => (
+            <div key={index}>
+              <img src={project.image} alt={project.title} />
+            </div>
+          ))}
         </div>
       </div>
     </div>
