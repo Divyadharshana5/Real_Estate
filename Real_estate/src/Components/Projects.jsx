@@ -32,8 +32,8 @@ const Projects = () => {
         </div>
       </div>
 
-      <div>
-        <div>
+      <div className="overflow-hidden">
+        <div className="flex gap-8 transition-transform duration-500 ease-in-out">
           {projectsData.map((project, index) => (
             <div key={index}>
               <img src={project.image} alt={project.title} />
