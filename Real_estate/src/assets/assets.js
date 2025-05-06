@@ -45,9 +45,9 @@ export const projectsData = [
   },
 
   {
-    title: "Central Square",
+    title: "Square",
     price: "$2,50,000",
-    location: "Los Angeles",
+    location: "Los",
     image: project_img_4,
   },
 
