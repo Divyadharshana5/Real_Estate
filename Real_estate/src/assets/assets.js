@@ -4,6 +4,10 @@ import cross_icon from "./cross_icon.png";
 import brand_img from "./brand_img.jpg";
 import left_arrow from "./left_arrow.jpg";
 import right_arrow from "./right_arrow.jpg";
+import project_img_1 from "./project_img_1.jpg";
+import project_img_2 from "./project_img_2.jpg";
+import project_img_3 from "./project_img_3.jpg";
+import project_img_4 from "./project_img_4.jpg";
 
 export const assets = {
   logo,
@@ -51,13 +55,13 @@ export const projectsData = [
     title: "Vista Verde",
     price: "$2,50,000",
     location: "San Francisco",
-    image: project_img_5,
+    image: project_img_2,
   },
 
   {
     title: "Serenity Suites",
     price: "$2,50,000",
     location: "Chicago",
-    image: project_img_6,
+    image: project_img_3,
   },
 ];
