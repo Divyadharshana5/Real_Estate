@@ -11,6 +11,7 @@ import project_img_4 from "./project_img_4.jpg";
 import profile_img_1 from "./profile_img_1.jpg";
 import profile_img_2 from "./profile_img_2.png";
 import profile_img_3 from "./profile_img_3.webp";
+import star_icon from "./star_icon.png";
 
 export const assets = {
   logo,
@@ -26,6 +27,7 @@ export const assets = {
   profile_img_1,
   profile_img_2,
   profile_img_3,
+  star_icon,
 };
 
 export const projectsData = [
@@ -79,7 +81,7 @@ export const testimonialsData = [
     image: profile_img_1,
     alt: "Portrait of Donald Jackman",
     rating: 5,
-    text: "From the very first meeting,they understood my vision & helped me find the perfect property.Their attention to details $ commitment to client satisfaction is unwatched.",
+    text: "From the very first meeting,they understood my vision & helped me find the perfect property.Their attention to details & commitment to client satisfaction is unwatched.",
   },
 
   {
@@ -88,7 +90,7 @@ export const testimonialsData = [
     image: profile_img_2,
     alt: "Portrait of Donald Jackman",
     rating: 4,
-    text: "From the very first meeting,they understood my vision & helped me find the perfect property.Their attention to details $ commitment to client satisfaction is unwatched.",
+    text: "From the very first meeting,they understood my vision & helped me find the perfect property.Their attention to details & commitment to client satisfaction is unwatched.",
   },
 
   {
@@ -97,6 +99,6 @@ export const testimonialsData = [
     image: profile_img_3,
     alt: "Portrait of Donald Jackman",
     rating: 5,
-    text: "From the very first meeting,they understood my vision & helped me find the perfect property.Their attention to details $ commitment to client satisfaction is unwatched.",
+    text: "From the very first meeting,they understood my vision & helped me find the perfect property.Their attention to details & commitment to client satisfaction is unwatched.",
   },
 ];
