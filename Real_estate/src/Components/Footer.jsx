@@ -8,12 +8,15 @@ const Footer = () => {
       id="Footer"
     >
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start">
-        <div className="w-full md:w-1/3 mb-8 md:mb-0">
-          <img
-            src={assets.logo}
-            alt=""
-            className="w-15 h-15 rounded-full left-0"
-          />
+        <div className="w-full md:w-1/3 mb-8 md:mb-0 ">
+          <div className="flex items-center space-x-2">
+            <img
+              src={assets.logo}
+              alt=""
+              className="w-12 h-12 rounded-full left-0"
+            />
+            <h1 className="text-white font-bold text-xl ">Estate</h1>
+          </div>
           <p className="text-gray-400 mt-4">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere
             tenetur eius fugit quasi odit, iure eos necessitatibus praesentium
