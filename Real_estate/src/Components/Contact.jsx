@@ -8,7 +8,7 @@ const Contact = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+    formData.append("access_key", "afda82bf-7406-4b80-90e6-4a36e9b02c9f");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -18,12 +18,13 @@ const Contact = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Form Submitted Successfully");
-      alert();
+      setResult("");
+      alert("Form Submitted Successfully");
       event.target.reset();
     } else {
       console.log("Error", data);
-      setResult(data.message);
+      alert(data.message);
+      setResult("");
     }
   };
   return (
@@ -79,7 +80,7 @@ const Contact = () => {
           ></textarea>
         </div>
         <button className="bg-blue-600 text-white py-2 px-12 mb-10 rounded">
-          Send Message
+          {result ? result : "Send Message"}
         </button>
       </form>
     </div>
