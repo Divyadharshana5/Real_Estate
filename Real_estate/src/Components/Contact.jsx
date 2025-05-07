@@ -41,6 +41,15 @@ const Contact = () => {
             />
           </div>
         </div>
+        <div className="my-6 text-left">
+          Message
+          <textarea
+            className="w-full border border-gray-300 rounded py-3 px-4 mt-2 h-48 resize-none "
+            name="Message"
+            placeholder="Message"
+            required
+          ></textarea>
+        </div>
       </form>
     </div>
   );
