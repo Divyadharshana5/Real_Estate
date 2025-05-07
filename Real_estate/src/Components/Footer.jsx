@@ -40,16 +40,19 @@ const Footer = () => {
           <p className="text-gray-400 mb-4 max-w-80">
             The latest news,articles & resources,sent to your inbox weekly.
           </p>
-          <div>
+          <div className="flex gap-2">
             <input
               type="email"
               placeholder="Enter your email"
               className="p-2 rounded bg-gray-800 text-gray-400 border border-gray-700 focus:outline-none w-full md:w-auto"
             />
+            <button className="py-2 px-4 rounded bg-blue-500 text-white">
+              Subscribe
+            </button>
           </div>
         </div>
       </div>
-      <div></div>
+      <div>Copyright 2025 @ Real-Estate.All Right Reserved.</div>
     </div>
   );
 };
