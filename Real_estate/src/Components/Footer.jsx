@@ -1,5 +1,5 @@
 import React from "react";
-import assets from "../assets/assets";
+import { assets } from "../assets/assets";
 
 const Footer = () => {
   return (
@@ -9,7 +9,11 @@ const Footer = () => {
     >
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start">
         <div className="w-full md:w-1/3 mb-8 md:mb-0">
-          <img src={assets.logo} alt="" />
+          <img
+            src={assets.logo}
+            alt=""
+            className="w-15 h-15 rounded-full left-0"
+          />
           <p className="text-gray-400 mt-4">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere
             tenetur eius fugit quasi odit, iure eos necessitatibus praesentium
