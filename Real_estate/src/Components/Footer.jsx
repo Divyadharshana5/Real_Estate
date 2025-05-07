@@ -52,7 +52,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div>Copyright 2025 @ Real-Estate.All Right Reserved.</div>
+      <div className="border-t border-gray-700 py-4 mt-10 text-center text-gray-500">
+        Copyright 2025 @ Real-Estate.All Right Reserved.
+      </div>
     </div>
   );
 };
